@@ -261,6 +261,9 @@ details::before {
 .dialogue-panel {
     opacity: 1; 
     overflow-y: auto; 
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-y: auto;
+    touch-action: pan-y;
     padding: 1.2rem; 
     text-align: start; 
     color: rgb(51, 51, 51); 
